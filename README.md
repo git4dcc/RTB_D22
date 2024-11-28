@@ -8,8 +8,8 @@ The D22 decoder is a double sided mobile decoder with Plux16 connector. The deco
 <details>
 <summary>See also</summary>
 
-- [RTB_D16 - NEM651 (signale sided)](https://github.com/git4dcc/RTB_D16)
-- [RTB_D20 - NEM651 (double sided)](https://github.com/git4dcc/RTB_D20)
+- [RTB_D16 - NEM651](https://github.com/git4dcc/RTB_D16)
+- [RTB_D20 - NEM651](https://github.com/git4dcc/RTB_D20)
 - [RTB_D21 - Next18](https://github.com/git4dcc/RTB_D21)
 
 </details>
@@ -44,8 +44,8 @@ The D22 decoder is a double sided mobile decoder with Plux16 connector. The deco
 - over temp protection
 - Function output: LF/LR (dimmable, 1.4kHz) open drain
 - Function output: AUX1/AUX2 (dimmable, 1.4kHz) open drain
-- Function output: AUX3/AUX4 logic level (using LS A/B ports)
-- SUSI
+- Function output: AUX3/AUX4 logic level (3.3V) using LS A/B ports
+- Function output: AUX5/AUX6 logic level (3.3V) or ZBCLK/ZBDAT (3.3V)
 - optional external buffer capacitor
 - <10mA idle power consumption
 - Firmware update over main tracks via DCC-R protocol
