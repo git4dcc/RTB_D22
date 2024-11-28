@@ -9,6 +9,8 @@ The D22 decoder is a double sided mobile decoder with Plux16 connector. The deco
 <summary>See also</summary>
 
 - [RTB_D16](https://github.com/git4dcc/RTB_D16)
+- [RTB_D16](https://github.com/git4dcc/RTB_D20)
+- [RTB_D16](https://github.com/git4dcc/RTB_D21)
 
 </details>
 
