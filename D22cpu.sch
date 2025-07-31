@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "RTB D22 Plux16 Decoder"
-Date "2024-11-18"
+Date "2025-04-20"
 Rev "0"
 Comp "Frank Schumacher"
 Comment1 "Lok Decoder Plux16"
