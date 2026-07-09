@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "RTB D22 Plux16 Decoder")
-		(date "2024-11-18")
-		(rev "0")
+		(date "2026-06-28")
+		(rev "1")
 		(company "Frank Schumacher")
 		(comment 1 "Lok Decoder Plux16")
-		(comment 2 "D22.0")
+		(comment 2 "D22.1")
 		(comment 4 "Licensed under the Apache License, Version 2")
 	)
 	(lib_symbols
@@ -1617,8 +1617,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 220kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 172.72 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25767"
+			(at 172.72 43.18 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1695,8 +1707,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 50V 62.5mW 9.1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 184.15 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25926"
+			(at 184.15 43.18 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1849,8 +1873,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 220kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 172.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25767"
+			(at 172.72 58.42 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1927,8 +1963,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 50V 62.5mW 9.1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 184.15 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25926"
+			(at 184.15 58.42 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2084,8 +2132,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-65℃~+150℃ 100MHz 100mA 2 PNP 200@2mA,5V 300mW 400mV@10mA,5mA 45V 5V 5uA PNP SOT-666-6 Bipolar (BJT) ROHS"
 			(at 81.28 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C282521"
+			(at 81.28 49.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2176,8 +2236,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-65℃~+150℃ 100MHz 100mA 2 PNP 200@2mA,5V 300mW 400mV@10mA,5mA 45V 5V 5uA PNP SOT-666-6 Bipolar (BJT) ROHS"
 			(at 73.66 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C282521"
+			(at 73.66 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2266,8 +2338,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 93.98 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 93.98 59.69 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2344,8 +2428,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 22Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 71.12 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25092"
+			(at 71.12 43.18 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2501,8 +2597,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-65℃~+150℃ 100MHz 100mA 2 NPN 200 300mV 300mW 45V 5V 5uA NPN SOT-666-6 Bipolar (BJT) ROHS"
 			(at 66.04 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C455062"
+			(at 66.04 76.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2591,8 +2699,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 78.74 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 78.74 76.2 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2672,8 +2792,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-65℃~+150℃ 100MHz 100mA 2 NPN 200 300mV 300mW 45V 5V 5uA NPN SOT-666-6 Bipolar (BJT) ROHS"
 			(at 66.04 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C455062"
+			(at 66.04 95.25 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

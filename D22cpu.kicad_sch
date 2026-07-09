@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "RTB D22 Plux16 Decoder")
-		(date "2025-04-20")
-		(rev "0")
+		(date "2026-06-28")
+		(rev "1")
 		(company "Frank Schumacher")
 		(comment 1 "Lok Decoder Plux16")
-		(comment 2 "D22.0")
+		(comment 2 "D22.1")
 		(comment 4 "Licensed under the Apache License, Version 2")
 	)
 	(lib_symbols
@@ -2510,7 +2510,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 128.27) (xy 199.39 128.27)
+			(xy 196.85 132.08) (xy 199.39 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3434,7 +3434,7 @@
 	)
 	(global_label "UPDI"
 		(shape bidirectional)
-		(at 196.85 128.27 180)
+		(at 196.85 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3443,7 +3443,29 @@
 		)
 		(uuid "453e1392-bbcc-44ac-a89b-3a97dd208284")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.85 128.27 0)
+			(at 196.85 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "CAP+"
+		(shape bidirectional)
+		(at 213.36 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4906e96b-4729-4058-b953-c41f0d3ffcbb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.36 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3664,28 +3686,6 @@
 		(uuid "8b3090d3-d8f6-4a64-b2e0-4d859de91f91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 213.36 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "VHBR"
-		(shape input)
-		(at 213.36 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8f9ece1b-c444-44b0-9285-62434234f3e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.36 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4223,8 +4223,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 33kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 76.2 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25779"
+			(at 76.2 135.89 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4303,8 +4315,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 33kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 76.2 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25779"
+			(at 76.2 132.08 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4459,8 +4483,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 4.7kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 191.77 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25900"
+			(at 191.77 44.45 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4537,8 +4573,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-30℃~+85℃ 130° 2.6V~3.6V 20mA 45mcd 463nm~475nm 465nm 72mW Blue Discrete Diode 0402 LED Indication - Discrete ROHS"
 			(at 213.36 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C130724"
+			(at 213.36 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4784,8 +4832,8 @@
 				(justify left)
 			)
 		)
-		(property "Height" "1"
-			(at 91.44 58.42 0)
+		(property "LCSC Part #" "C5156221"
+			(at 54.61 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4793,55 +4841,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Mouser Part Number" "494-AVR64DD28-I/STX"
-			(at 91.44 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/AVR64DD28-I-STX?qs=tlsG%2FOw5FFjDVF9O6As67Q%3D%3D"
-			(at 91.44 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer_Name" "Microchip"
-			(at 91.44 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AVR64DD28-I/STX"
-			(at 91.44 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "10"
@@ -5139,7 +5138,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 204.47 128.27 0)
+		(at 204.47 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5149,7 +5148,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000066e82ec1")
 		(property "Reference" "J2"
-			(at 206.502 127.2032 0)
+			(at 206.502 131.0132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5160,7 +5159,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 206.502 129.5146 0)
+			(at 206.502 133.3246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5171,7 +5170,7 @@
 			)
 		)
 		(property "Footprint" "RTB:DummyNet-Connector"
-			(at 204.47 128.27 0)
+			(at 204.47 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5182,7 +5181,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 128.27 0)
+			(at 204.47 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5193,7 +5192,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 128.27 0)
+			(at 204.47 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5209,159 +5208,6 @@
 			(project "D22"
 				(path "/0a0abaf8-37de-43a9-90ad-fe1ac89d1e5c/00000000-0000-0000-0000-00005b6c6b9d"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 204.47 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000066e8afe9")
-		(property "Reference" "J4"
-			(at 206.502 137.3632 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 206.502 139.6746 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RTB:DummyNet-Connector"
-			(at 204.47 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d7736bb3-4ccd-42aa-88f5-67cf81c9898e")
-		)
-		(instances
-			(project "D22"
-				(path "/0a0abaf8-37de-43a9-90ad-fe1ac89d1e5c/00000000-0000-0000-0000-00005b6c6b9d"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 199.39 138.43 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000066e8becc")
-		(property "Reference" "#PWR0110"
-			(at 193.04 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 138.43 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 199.39 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "67e7336c-d980-4251-9cd9-d69d4957991a")
-		)
-		(instances
-			(project "D22"
-				(path "/0a0abaf8-37de-43a9-90ad-fe1ac89d1e5c/00000000-0000-0000-0000-00005b6c6b9d"
-					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -5597,159 +5443,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 204.47 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000066f200be")
-		(property "Reference" "J3"
-			(at 206.502 132.2832 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 206.502 134.5946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RTB:DummyNet-Connector"
-			(at 204.47 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "62b430b3-7e1e-4f8e-87ec-f707ae628ff6")
-		)
-		(instances
-			(project "D22"
-				(path "/0a0abaf8-37de-43a9-90ad-fe1ac89d1e5c/00000000-0000-0000-0000-00005b6c6b9d"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 199.39 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000066f216f4")
-		(property "Reference" "#PWR0112"
-			(at 203.2 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 193.04 133.35 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 199.39 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77ab1d0e-2f24-457b-9905-9e1082f1064a")
-		)
-		(instances
-			(project "D22"
-				(path "/0a0abaf8-37de-43a9-90ad-fe1ac89d1e5c/00000000-0000-0000-0000-00005b6c6b9d"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 76.2 128.27 180)
 		(unit 1)
@@ -5802,8 +5495,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+150℃ 1 Independent 10A 1A 40V 600mV@1A 60uA@40V DFN1006-2 Schottky Diodes ROHS"
 			(at 76.2 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C6297199"
+			(at 76.2 128.27 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5880,8 +5585,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+150℃ 1 Independent 10A 1A 40V 600mV@1A 60uA@40V DFN1006-2 Schottky Diodes ROHS"
 			(at 76.2 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C6297199"
+			(at 76.2 139.7 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6069,7 +5786,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000673c828f")
 		(property "Reference" "R21"
-			(at 181.61 102.87 90)
+			(at 186.182 104.648 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6080,14 +5797,13 @@
 			)
 		)
 		(property "Value" "470"
-			(at 186.69 101.6 90)
+			(at 187.96 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -6114,6 +5830,18 @@
 		)
 		(property "Description" ""
 			(at 187.96 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 187.96 101.6 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6149,7 +5877,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000673ce129")
 		(property "Reference" "R22"
-			(at 219.71 102.87 90)
+			(at 214.122 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6160,14 +5888,13 @@
 			)
 		)
 		(property "Value" "470"
-			(at 214.63 101.6 90)
+			(at 215.9 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -6194,6 +5921,18 @@
 		)
 		(property "Description" ""
 			(at 215.9 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 215.9 101.6 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6239,7 +5978,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n/50V"
 			(at 98.8568 40.513 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6272,8 +6011,20 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 96.52 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C307331"
+			(at 96.52 39.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
