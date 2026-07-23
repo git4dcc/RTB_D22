@@ -66,7 +66,7 @@ The current PCB layout uses SMD footprints with 0.5mm pitch and 0402 parts. Refl
 - Motor bridge: DRV8231
 
 ## Kicad
-[Schematic](doc/D22_schematic.pdf) | [Layout](doc/D22_layout.pdf) | [Gerber](gerber)
+[Schematic](doc/D22_schematic.pdf) | [Layout](doc/D22_layout.pdf) | [Gerber](production)
 
 <details>
 <summary>Dependency</summary>
