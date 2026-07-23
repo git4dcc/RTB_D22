@@ -40,7 +40,7 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.8,
+          "height": 0.5,
           "width": 0.8
         },
         "silk_line_width": 0.15,
@@ -145,7 +145,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.075,
+        "min_copper_edge_clearance": 0.4,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
@@ -159,7 +159,7 @@
         "min_track_width": 0.09,
         "min_via_annular_width": 0.075,
         "min_via_diameter": 0.45,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -774,6 +774,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""

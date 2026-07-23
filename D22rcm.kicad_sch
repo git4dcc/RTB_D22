@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RTB D22 Plux16 Decoder")
-		(date "2026-06-28")
+		(date "2026-07-23")
 		(rev "1")
 		(company "Frank Schumacher")
 		(comment 1 "Lok Decoder Plux16")
@@ -1718,7 +1718,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25926"
+		(property "LCSC Part #" " C163450"
 			(at 184.15 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -1974,7 +1974,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25926"
+		(property "LCSC Part #" " C163450"
 			(at 184.15 58.42 90)
 			(hide yes)
 			(show_name no)

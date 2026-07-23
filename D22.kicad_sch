@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RTB D22 Plux16 Decoder")
-		(date "2026-06-28")
+		(date "2026-07-23")
 		(rev "1")
 		(company "Frank Schumacher")
 		(comment 1 "Lok Decoder Plux16")
